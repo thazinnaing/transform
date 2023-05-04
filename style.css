@@ -1,0 +1,30 @@
+.container{
+    max-width: 500px;
+    margin-top: 150px;
+    margin-left: 0;
+
+}
+.transform{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(26, 172, 167);
+    margin-bottom: 20px;
+    border-radius: 30px;
+    transition: transform 5s ease-in-out;
+
+    /* transform-origin: left; */
+    /* transform: rotate(45deg); */
+    /* transform: scale(2); */
+    /* transform: translateX(40px); */
+    /* transform: translateY(100px); */
+    /* transform: translateY(-100px); */
+    /* transform: translate(100px, 100px); */
+
+}
+.transformbutton{
+    background-color: magenta;
+}
+.startTransform{
+    transform: scale(3) translate(100px, 100px)
+
+}
